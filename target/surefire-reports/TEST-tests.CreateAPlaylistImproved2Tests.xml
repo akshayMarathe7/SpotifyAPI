@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="tests.CreateAPlaylistImproved2Tests" time="23.968" tests="5" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\akshay.marathe01\IdeaProjects\SpotiAPI\target\test-classes;C:\Users\akshay.marathe01\IdeaProjects\SpotiAPI\target\classes;C:\Users\akshay.marathe01\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\akshay.marathe01\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\akshay.marathe01\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\akshay.marathe01\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\akshay.marathe01\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\akshay.marathe01\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\akshay.marathe01\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\akshay.marathe01\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\akshay.marathe01\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\akshay.marathe01\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\akshay.marathe01\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\akshay.marathe01\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\akshay.marathe01\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\akshay.marathe01\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\akshay.marathe01\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\akshay.marathe01\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\akshay.marathe01\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\akshay.marathe01\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\akshay.marathe01\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\cucumber-junit\6.9.0\cucumber-junit-6.9.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\cucumber-core\6.9.0\cucumber-core-6.9.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\cucumber-gherkin\6.9.0\cucumber-gherkin-6.9.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.0\cucumber-gherkin-messages-6.9.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\messages\13.2.0\messages-13.2.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\cucumber-plugin\6.9.0\cucumber-plugin-6.9.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\docstring\6.9.0\docstring-6.9.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\akshay.marathe01\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\akshay.marathe01\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\akshay.marathe01\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\akshay.marathe01\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\akshay.marathe01\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\akshay.marathe01\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\akshay.marathe01\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\akshay.marathe01\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\akshay.marathe01\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\akshay.marathe01\.m2\repository\com\google\code\gson\gson\2.10\gson-2.10.jar;C:\Users\akshay.marathe01\.m2\repository\io\rest-assured\json-schema-validator\5.3.2\json-schema-validator-5.3.2.jar;C:\Users\akshay.marathe01\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\akshay.marathe01\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\akshay.marathe01\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\akshay.marathe01\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\akshay.marathe01\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\akshay.marathe01\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\akshay.marathe01\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\akshay.marathe01\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\akshay.marathe01\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\akshay.marathe01\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\akshay.marathe01\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\akshay.marathe01\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\akshay.marathe01\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\akshay.marathe01\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\akshay.marathe01\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\akshay.marathe01\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\akshay.marathe01\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\akshay.marathe01\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\akshay.marathe01\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;C:\Users\akshay.marathe01\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;C:\Users\akshay.marathe01\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\zulu-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\akshay.marathe01\AppData\Local\Temp\surefire9022698710177839679\surefirebooter8443173251428125346.jar C:\Users\akshay.marathe01\AppData\Local\Temp\surefire9022698710177839679 2025-05-19T15-52-02_911-jvmRun1 surefire8071295166170091368tmp surefire_09791798128004621742tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\akshay.marathe01\IdeaProjects\SpotiAPI\target\test-classes;C:\Users\akshay.marathe01\IdeaProjects\SpotiAPI\target\classes;C:\Users\akshay.marathe01\.m2\repository\io\rest-assured\rest-assured\5.3.1\rest-assured-5.3.1.jar;C:\Users\akshay.marathe01\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\akshay.marathe01\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\akshay.marathe01\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\akshay.marathe01\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\akshay.marathe01\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\akshay.marathe01\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\akshay.marathe01\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\akshay.marathe01\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\akshay.marathe01\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\akshay.marathe01\.m2\repository\io\rest-assured\json-path\5.3.1\json-path-5.3.1.jar;C:\Users\akshay.marathe01\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\akshay.marathe01\.m2\repository\io\rest-assured\rest-assured-common\5.3.1\rest-assured-common-5.3.1.jar;C:\Users\akshay.marathe01\.m2\repository\io\rest-assured\xml-path\5.3.1\xml-path-5.3.1.jar;C:\Users\akshay.marathe01\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\akshay.marathe01\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;C:\Users\akshay.marathe01\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\akshay.marathe01\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\akshay.marathe01\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\cucumber-junit\6.9.0\cucumber-junit-6.9.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\cucumber-core\6.9.0\cucumber-core-6.9.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\cucumber-gherkin\6.9.0\cucumber-gherkin-6.9.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.0\cucumber-gherkin-messages-6.9.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\messages\13.2.0\messages-13.2.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\cucumber-plugin\6.9.0\cucumber-plugin-6.9.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\docstring\6.9.0\docstring-6.9.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\akshay.marathe01\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\akshay.marathe01\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\akshay.marathe01\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\akshay.marathe01\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;C:\Users\akshay.marathe01\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\akshay.marathe01\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\akshay.marathe01\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\akshay.marathe01\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\akshay.marathe01\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\akshay.marathe01\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\akshay.marathe01\.m2\repository\com\google\code\gson\gson\2.10\gson-2.10.jar;C:\Users\akshay.marathe01\.m2\repository\io\rest-assured\json-schema-validator\5.3.2\json-schema-validator-5.3.2.jar;C:\Users\akshay.marathe01\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\akshay.marathe01\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\akshay.marathe01\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\akshay.marathe01\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\akshay.marathe01\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\akshay.marathe01\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\akshay.marathe01\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\akshay.marathe01\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\akshay.marathe01\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\akshay.marathe01\.m2\repository\joda-time\joda-time\2.10.5\joda-time-2.10.5.jar;C:\Users\akshay.marathe01\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\akshay.marathe01\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\akshay.marathe01\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\akshay.marathe01\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\akshay.marathe01\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\akshay.marathe01\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\akshay.marathe01\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\akshay.marathe01\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\akshay.marathe01\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;C:\Users\akshay.marathe01\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;C:\Users\akshay.marathe01\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\akshay.marathe01"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\zulu-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\akshay.marathe01\IdeaProjects\SpotiAPI"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\akshay.marathe01\AppData\Local\Temp\surefire9022698710177839679\surefirebooter8443173251428125346.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.9+8-LTS"/>
+    <property name="user.name" value="akshay.marathe01"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu17.46+20-SA"/>
+    <property name="localRepository" value="C:\Users\akshay.marathe01\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\akshay.marathe01\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.1"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="user.dir" value="C:\Users\akshay.marathe01\IdeaProjects\SpotiAPI"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\zulu-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\zulu-17\bin;C:\Program Files\zulu-17-jre\bin;C:\Program Files\zulu-17-jre;mC:\Program Files\zulu-17;C:\Apache-Maven-3.9.2\apache-maven-3.9.2\bin;C:\Users\akshay.marathe01\scoop\shims;C:\Users\akshay.marathe01\AppData\Local\Microsoft\WindowsApps;&quot;;%M2_HOME%\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="17.0.9+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="NegariveInvalidToken" classname="tests.CreateAPlaylistImproved2Tests" time="10.598"/>
+  <testcase name="negativeCreatePlaylistWithoutName" classname="tests.CreateAPlaylistImproved2Tests" time="3.823"/>
+  <testcase name="validateCreateAPlaylist" classname="tests.CreateAPlaylistImproved2Tests" time="4.595"/>
+  <testcase name="validateGetAPlaylist" classname="tests.CreateAPlaylistImproved2Tests" time="1.958">
+    <failure message="&#10;Expected: &quot;New Playlist 7th &quot;&#10;     but: was &quot;update&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: "New Playlist 7th "
+     but: was "update"
+	at tests.CreateAPlaylistImproved2Tests.validateGetAPlaylist(CreateAPlaylistImproved2Tests.java:53)
+</failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://accounts.spotify.com/api/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	refresh_token=AQAfNBoqL-559iPRsiPTSsACSzgZ2Ax3uf2sZ2uz9FOHY7NDYfZ2Q56JuWxeCvLQCVyMkO8AZIo6faUmfwhdAsJdmuzCmOy91r9nN0qqCI_0cZrnpAV10TOWhUJZ0hK4_OE
+				grant_type=refresh_token
+				client_secret=468eccece25f4ab2baff90d5d026759e
+				client_id=cd9b16c4f9e14e0f861c8425adf0ea4a
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+date: Mon, 19 May 2025 10:22:26 GMT
+content-type: application/json
+vary: Accept-Encoding
+request-id: 4afa2a63-f126-4fd2-a852-caa0139a7916
+set-cookie: __Host-device_id=AQD6CNNt4OtQr1QEyI4wPhkoIUx9Ds4L5Mdx-3X8yVeyZ6P_fibsGC6_GyBDM8vzlgRbEy8sBQv8G2nG5_49iWRXJZfQkIfX-mg;Version=1;Path=/;Max-Age=2147483647;Secure;HttpOnly;SameSite=Lax
+set-cookie: sp_tr=false;Version=1;Domain=accounts.spotify.com;Path=/;Secure;SameSite=Lax
+sp-trace-id: 9ab625a102ac4fc9
+content-encoding: gzip
+x-envoy-upstream-service-time: 24
+server: envoy
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "access_token": "BQCnzE67yMeH8d-8gY10lK6okNz8YdyyWFMBMgg1qi9_lLYxq9xGm2YyUMCH50aL5Nozt7dnfig5K1nZU6Ti_zVXvTlZU6qXO72avtraNOzyQ2fhu8xLOsJkYA7TonaL3OhSgcliHIbEswv_cxIiThNhDxW2lDnBbJ6hD1T0Jg-kVILGq28Dw6tVm5YEpd-DEH6vV3ZfV80wVtBWCFvlxImIHbzC87kXOOe-VX1dMulXMqfgdSwd_MH6soobpSIPCAlD-B8yR0iBl9vh0nMwYsCNZAM5Voab35X3BMEve3eKFWli_DXFyLPM",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "scope": "playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"
+}
+Request method:	GET
+Request URI:	https://api.spotify.com/v1/playlists/6IoL4Nt81lt5qzwJsfCFDi
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer BQCnzE67yMeH8d-8gY10lK6okNz8YdyyWFMBMgg1qi9_lLYxq9xGm2YyUMCH50aL5Nozt7dnfig5K1nZU6Ti_zVXvTlZU6qXO72avtraNOzyQ2fhu8xLOsJkYA7TonaL3OhSgcliHIbEswv_cxIiThNhDxW2lDnBbJ6hD1T0Jg-kVILGq28Dw6tVm5YEpd-DEH6vV3ZfV80wVtBWCFvlxImIHbzC87kXOOe-VX1dMulXMqfgdSwd_MH6soobpSIPCAlD-B8yR0iBl9vh0nMwYsCNZAM5Voab35X3BMEve3eKFWli_DXFyLPM
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+content-type: application/json; charset=utf-8
+cache-control: public, max-age=0
+etag: "MC-IjkyZjRiNzBmODYwN2VhOTgzMDhkMTVlZDE1Y2FkM2EwIg=="
+x-robots-tag: noindex, nofollow
+access-control-allow-origin: *
+access-control-allow-headers: Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token
+access-control-allow-methods: GET, POST, OPTIONS, PUT, DELETE, PATCH
+access-control-allow-credentials: true
+access-control-max-age: 604800
+content-encoding: gzip
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+date: Mon, 19 May 2025 10:22:27 GMT
+server: envoy
+Via: HTTP/2 edgeproxy, 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+
+{
+    "collaborative": false,
+    "description": "update",
+    "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/6IoL4Nt81lt5qzwJsfCFDi"
+    },
+    "followers": {
+        "href": null,
+        "total": 0
+    },
+    "href": "https://api.spotify.com/v1/playlists/6IoL4Nt81lt5qzwJsfCFDi",
+    "id": "6IoL4Nt81lt5qzwJsfCFDi",
+    "images": null,
+    "name": "update",
+    "owner": {
+        "display_name": "Akshay",
+        "external_urls": {
+            "spotify": "https://open.spotify.com/user/31cf6242qwqdkxzzmgfch6jswbc4"
+        },
+        "href": "https://api.spotify.com/v1/users/31cf6242qwqdkxzzmgfch6jswbc4",
+        "id": "31cf6242qwqdkxzzmgfch6jswbc4",
+        "type": "user",
+        "uri": "spotify:user:31cf6242qwqdkxzzmgfch6jswbc4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAAoPfnU5ElPSdu8epEfUtd0Q5e1gf",
+    "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/6IoL4Nt81lt5qzwJsfCFDi/tracks?offset=0&limit=0",
+        "items": [
+            
+        ],
+        "limit": 0,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 0
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:6IoL4Nt81lt5qzwJsfCFDi"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="validateUpdateAplaylist" classname="tests.CreateAPlaylistImproved2Tests" time="1.463"/>
+</testsuite>

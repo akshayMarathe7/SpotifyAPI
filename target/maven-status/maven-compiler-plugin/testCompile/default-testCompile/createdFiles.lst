@@ -1,0 +1,17 @@
+Pojo\Tracks.class
+utils\propReader.class
+api\SpecBuilder.class
+tests\CreateAPlaylistImproved2Tests.class
+Pojo\ErrorRoot.class
+utils\CreateAPlaylist.class
+Pojo\ExternalUrls__1.class
+api\applicationApi\PlaylistApi.class
+api\TokenManager.class
+Pojo\ExternalUrls.class
+Pojo\Playlist.class
+Pojo\Error.class
+Pojo\Owner.class
+api\SpecBuilderImproved2.class
+Pojo\Followers.class
+utils\CreateAPlaylistImproved1.class
+api\applicationApi\RestResources.class

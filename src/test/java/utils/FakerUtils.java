@@ -3,6 +3,7 @@ package utils;
 import com.github.javafaker.Faker;
 
 public class FakerUtils {
+    // Comments
     public static String getName(){
 
         Faker faker=new Faker();
